@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+h1, h2, h3, h4, h5, h6, p, span, li, a {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: 700;
+}
+
+.main{
+    min-height: 100vh;
+    padding: 25px 0;
+    background-color: #ededed;
+}
+
+footer p {
+    margin: 0;
+}
+
+.filter-sidebar {
+    height: 100%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.offersListings .col-md-9{
+ background-color: #fff;
+ border-radius: 5px;
+}
+
+.offersListings .topToolBar{
+    padding: 15px 0;
+}
+
+.badge {
+    background-color: #2874f0;
+}
+
+.filter-tag {
+    display: flex;
+    align-items: center;
+}
+
+#filter-toolbar {
+    display: flex;
+    gap: 10px;
+}
+
+
+#listings-container .card-body {
+    position: relative;
+}
+
+#listings-container {
+    row-gap: 20px;
+}
+
+#listings-container .card-body .offer-badge{
+    height: 130px;
+    text-align: center;
+    transform: rotate(-17deg);
+    max-width: 130px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+
+#listings-container .card-body .card-title {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+#listings-container .card-body .card-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+#listings-container .card-body .offer-badge .offer-value{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#listings-container .card-body .offer-badge .offer-type{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+#listings-container .col-md-3:nth-child(3n+1) .card-body .offer-badge {
+    background-image: linear-gradient(#ffa5002e, #ffff007a); /* 1st child gradient */
+}
+
+#listings-container .col-md-3:nth-child(3n+2) .card-body .offer-badge {
+    background-image: linear-gradient(#00ff002e, #00ffff7a); /* 2nd child gradient */
+}
+
+#listings-container .col-md-3:nth-child(3n+3) .card-body .offer-badge {
+    background-image: linear-gradient(#ff00ff2e, #ff007a); /* 3rd child gradient */
+}
+
+#listings-container .col-md-3:nth-child(3n+4) .card-body .offer-badge {
+    background-image: linear-gradient(#0000ff2e, #0077ff7a); /* 4th child gradient */
+}
+
+
+.ownerDashboard .tabsNav .nav-tabs {
+    background-color: transparent;
+}
+
+.ownerDashboard .tab-content{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+.ownerDashboard .nav-tabs .nav-link{
+    color: #444;
+}
+.ownerDashboard  .nav-tabs .nav-link.active {
+    font-weight: 800;
+    color: #000;
+}
+
+
+
+
+#listings-container .card-body .offer-badge{
+    height: 130px;
+    text-align: center;
+    transform: rotate(-17deg);
+    max-width: 130px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+
+#dashBoard-preview-listing .card-body .card-title {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+#dashBoard-preview-listing .card-body .card-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+#dashBoard-preview-listing .card-body .offer-badge .offer-value{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#dashBoard-preview-listing .card-body .offer-badge .offer-type{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+#dashBoard-preview-listing .card-body .offer-badge {
+    background-image: linear-gradient(#ffa5002e, #ffff007a); /* 1st child gradient */
+}
+
+#dashBoard-preview-listing .card-body .offer-badge {
+    height: 130px;
+    text-align: center;
+    transform: rotate(-17deg);
+    max-width: 130px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px 0;
+}
